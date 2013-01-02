@@ -1,0 +1,8 @@
+build/
+out/
+*.iml
+*.ipr
+*.iws
+.settings
+.classpath
+.project

@@ -1,5 +1,14 @@
 apply plugin: 'java'
 
+repositories {
+  mavenCentral()
+  mavenLocal()
+}
+
+dependencies {
+  compile 'org.apache.cassandra:cassandra-all:1.1.6'
+}
+
 task wrapper(type: Wrapper) {
   gradleVersion = '1.3'
 }
