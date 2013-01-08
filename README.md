@@ -21,19 +21,19 @@ CF_PASSWORD with the appropriate values.
 By default this implementation will allow the following privileges:
 
 ### Standard Access
-READ
-WRITE
-FULL_ACCESS
+* READ
+* WRITE
+* FULL_ACCESS
 
 ### Schema management
-DESCRIBE
-CREATE
-ALTER
-DROP
+* DESCRIBE
+* CREATE
+* ALTER
+* DROP
 
-h3 Data access
-UPDATE
-DELETE
-SELECT
+### Data access
+* UPDATE
+* DELETE
+* SELECT
 
 Copyright (c) 2013 CloudCredo Ltd.
