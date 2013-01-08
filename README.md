@@ -2,7 +2,7 @@
 
 An authentication and authorisation implementation for [Cassandra] [1] for use with [CloudFoundry] [2].
 
-This Jar must be used in  conjunction with [vcap_cassandra] [3] or with a services that set the CF_USER and CF_PASSWORD
+This Jar must be used in  conjunction with [vcap_cassandra] [3] or with a service that set the CF_USER and CF_PASSWORD
 system variables.
 
 ## Usage
