@@ -1,8 +1,8 @@
 # Cassandra Chastity
 
-An authentication and authorisation implementation for Cassandra for use with CloudFoundry.
+An authentication and authorisation implementation for [Cassandra] [1] for use with [CloudFoundry] [2].
 
-This Jar must be used in  conjunction with vcap_cassandra or with a services that set s the CF_USER and CF_PASSWORD
+This Jar must be used in  conjunction with [vcap_cassandra] [3] or with a services that set the CF_USER and CF_PASSWORD
 system variables.
 
 ## Usage
@@ -37,3 +37,7 @@ By default this implementation will allow the following privileges:
 * SELECT
 
 Copyright (c) 2013 CloudCredo Ltd.
+
+[1]: http://cassandra.apache.org                                                 "Cassandra"
+[2]: http://www.cloudfoundry.org                                                 "Cloudfoundry"
+[3]: https://github.com/CloudCredo/vcap_cassandra                                "vcap_cassandra"
