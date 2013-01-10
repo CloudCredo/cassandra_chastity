@@ -136,7 +136,6 @@ public class CloudFoundryAuthenticatorTest {
         Assert.assertEquals(actual.username, TEST_USER);
     }
 
-
     @Test
     public void defaultUserShouldBeNull() {
         Assert.assertNull(unit.defaultUser());
@@ -144,13 +143,11 @@ public class CloudFoundryAuthenticatorTest {
 
     private void addUserNameToCredentials(String testUser, Map<CharSequence, CharSequence> credentials) {
         CharSequence usernameKey = IAuthenticator.USERNAME_KEY;
-        CharSequence usernameValue= testUser;
-        credentials.put(usernameKey, usernameValue);
+        credentials.put(usernameKey, testUser);
     }
 
-    private void addPasswordToCredentials(String password, Map<CharSequence,CharSequence> credentials) {
+    private void addPasswordToCredentials(String password, Map<CharSequence, CharSequence> credentials) {
         CharSequence passwordKey = IAuthenticator.PASSWORD_KEY;
-        CharSequence passwordValue = password;
-        credentials.put(passwordKey, passwordValue);
+        credentials.put(passwordKey, password);
     }
 }
