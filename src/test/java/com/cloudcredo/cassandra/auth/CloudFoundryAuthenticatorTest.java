@@ -13,10 +13,7 @@ import java.lang.reflect.Field;
 import java.util.HashMap;
 import java.util.Map;
 
-/**
- * @author: chris
- * @date: 10/01/2013
- */
+
 public class CloudFoundryAuthenticatorTest {
 
     private static final String TEST_USER = "test user";
