@@ -9,7 +9,7 @@ system variables.
 
 1. The compiled jar must be included in $CASSANDRA_DEPLOYMENT/lib
 2. The following $CASSANDRA_DEPLOYMENT/conf/cassandra.yaml properties set to:
-     * authenticator: com.cloudcredo.cassandra.auth.CloudCredoAuthenticator
+     * authenticator: com.cloudcredo.cassandra.auth.CloudFoundryAuthenticator
      * authority: org.apache.cassandra.auth.AllowAllAuthority
 
 A client located on the same box as the Cassandra daemon must set the system environment variables CF_USER and
